@@ -1,0 +1,565 @@
+/*
+ Theme Name:   Delta-Chi-Theme
+ Theme URI:    http://umndeltachi.com/delta-chi-theme/;
+ Description:  Sparkling Child Theme
+ Author:       Jacob Grafenstein	
+ Author URI:   jakedonivan.com
+ Template:     sparkling
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  sparkling-child
+*/
+
+.btn-default, .label-default {
+	background-color: #7a0019;
+	border-color: #7a0019;
+}
+
+#secondary .widget {
+	color:#555;
+}
+
+#secondary .widget a {
+	color: #7a0019;
+	text-decoration:underline;
+}
+
+#secondary .widget a:hover {
+	text-decoration:none;
+	color:#555;
+}
+.widget-button {
+	background: #3498db;
+ 	background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+ 	background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+ 	background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+ 	background-image: -o-linear-gradient(top, #3498db, #2980b9);
+	background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  text-shadow: 1px 1px 3px #666666;
+  color: #ffffff !important;
+	line-height:40px;
+ 	text-decoration: none;
+  padding-left:30px;
+  padding-right:30px;
+}
+
+.widget-button:hover {
+	background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+#secondary .widget a.widget-button {
+  margin:auto;
+  float:left;
+  width:100%;
+  text-align:center;
+  text-decoration:none;
+}
+
+#secondary .widget > h3 {
+  margin-bottom:10px;
+  line-height:22px
+}
+
+#secondary .widget {
+  margin-bottom:20px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom:20px;
+}
+
+.list-item {
+  list-style-type:disc;
+  display:list-item;
+  margin-top:10px;
+}
+
+#footer-area p {
+	color: #bbb;
+}
+#footer-area a {
+	color:#fff;
+}
+
+.scroll-to-top:hover {
+	background: #000;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+	color: #ffcc33;
+	background-color:transparent !important;
+}
+
+.navbar {
+	border-radius:0px;
+	border:none;
+}
+
+.navbar.navbar-default {
+	background-color: #313233;
+}
+
+.copyright {
+	visibility: hidden;
+}
+
+.cfa-button {
+  display:none;
+}
+
+.cfa {
+	background:url('/wp-content/uploads/2015/03/cropped-Dchi_Slider_11.jpg');
+	background-size:cover;
+	height:500px;
+	border-bottom:none !important;
+}
+
+.col-sm-8 {
+  width:100%;
+  padding-top:250px;
+}
+
+.call-to-action {
+  color:#fff;  
+  font-size:50px;
+  text-shadow:0 0 30px #000;
+}
+
+.tribe-events-loop .tribe-events-event-meta {
+	font-weight:400;
+}
+
+.jimmy-v {
+	background: #3498db;
+ 	background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+ 	background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+ 	background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+ 	background-image: -o-linear-gradient(top, #3498db, #2980b9);
+	background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  text-shadow: 1px 1px 3px #666666;
+  color: #ffffff;
+	line-height:40px;
+ 	text-decoration: none;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-left:30px;
+  padding-right:30px;
+}
+
+.jimmy-v:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+a {
+	cursor:pointer;
+}
+
+.logo-image {
+  float:left;
+  padding-top:20px;
+  margin-right:10px;
+}
+
+.top-section {
+  box-shadow: 0 2px 30px black;
+}
+
+.comments-area {
+  background:#fff;
+  border:1px solid #dadada;
+  border-top:none;
+  padding:5px 50px;
+  margin-top: 30px;
+}  
+
+textarea {
+  background:#eee;
+  border: 1px solid #aaa;
+}
+
+strong {
+  font-weight:900;
+}
+
+.post-inner-content {
+  padding-top:5px; 
+  padding-bottom:20px;
+  padding-left:50px;
+  padding-right:50px;
+}  
+
+.single-featured {
+  margin-top:15px;
+}
+
+.post {
+  background:#fff;
+  border:1px solid #dadada;
+}  
+
+.post > .post-inner-content {
+  border:none;
+}
+.widgettitle {
+  line-height:20px;
+}
+
+.footer-widget-area .ninja-forms-required-items {
+  display:none;
+} 
+
+.tribe-events-list-widget .tribe-events-widget-link a:hover {
+	text-decoration:underline;
+}
+
+.duration {
+  color:#999;
+}
+
+
+.col-sm-4 {
+  border-bottom:none;
+	padding-top:0px;
+	padding-bottom:0px;
+	}
+
+.one_third, .two_third {
+  margin-bottom:20px;
+  margin-top:20px;
+}
+.two_third p {
+  margin-left:20px;
+}
+
+.chair_and_name {
+  height:150px;
+}
+.brother-list {
+  list-style-type:none;
+  margin:0;
+  padding:0;
+}
+
+.brother_name {
+  color:#333;
+  margin:20px;
+  font-size:130%;
+  line-height:80%;
+}
+
+.individual-posts {
+  width:33.33%;
+  float:left;
+  margin-top:30px;
+  
+}
+
+.brother_item {
+  text-align:center;
+  margin:auto;
+}
+
+.brother-inner-content {
+  width:80%;
+  margin:auto;
+}
+
+.brother_info {
+  margin-top:15px;
+}
+
+.brother_position {
+  text-decoration:underline;
+  cursor: pointer;
+}
+
+.brother-heading {
+  text-align:center;
+  text-decoration:underline;
+  color:#313233;
+}
+
+.brother-main-content {
+  overflow:auto;
+  margin-bottom:50px;
+}
+
+#mc_embed_signup {
+  background:transparent !important;
+}
+
+#mc_embed_signup form {
+  padding:0 !important;
+}
+
+#mc_embed_signup input.email {
+  width:100% !important;
+}
+
+#mc_embed_signup .button {
+  background-color:#7a0019 !important;
+  font-weight:normal !important;
+}
+
+#mc_embed_signup .button:hover {
+  background-color:#fff !important;
+  border:1px solid #dadada;
+  color:#444;
+}
+
+.single-featured {
+  margin-bottom:15px;
+}
+
+.social-media-icons {
+  position:fixed;
+  bottom:120px;
+  right:20px;
+}
+.social-media-icons ul {
+  list-style-type:none;
+}
+.social-media-icons ul li {
+	border-bottom:none !important;
+}
+.facebook, .twitter, .linkedin {
+	background-color:#313233;
+	width:50px;
+	height:50px;
+  margin-bottom:5px;
+}
+.facebook:hover, .twitter:hover, .linkedin:hover {
+  padding-top:5px;
+}
+.facebook img, .twitter img, .linkedin img {
+	width:40px;
+	height:40px;
+	margin-left:4px;
+  margin-top:4px;
+}
+
+.ninja-forms-req-symbol {
+	color:#7a0019 !important;
+}
+
+.entry-content {
+	color:#0a0a0a !important;
+}
+
+#ninja_forms_form_7 {
+  border:1px solid #bbb;
+}
+
+#ninja_forms_form_7 .ninja-forms-all-fields-wrap {
+  margin:15px;
+}
+
+blockquote p {
+  font-size:150%;
+  font-style:italic;
+}
+
+.su-quote-style-default {
+	font-size:150%;
+}
+.su-quote-cite {
+  font-size:66% !important;
+}
+
+#mc_embed_signup .asterisk {
+  color:#7a0019 !important;
+}
+#mc_embed_signup .datefield {
+  padding:12px 0px !important;
+}
+#mc_embed_signup .datefield input {
+  padding:5px 0 5px 0 !important;
+}
+
+.navbar-default .navbar-nav .current-menu-ancestor a.dropdown-toggle {
+	color:#fc3;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu > li.active > a {
+  background-color:#fc3 !important;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+  color:#222 !important;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+  background-color:#7a0019 !important;
+}
+
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover {
+  background-color:#fc3;
+}
+
+.dropdown-menu>.active>a:hover {
+  background-color:#7a0019;
+}
+
+.dropdown-menu>li>a:hover {
+  background-color:#7a0019;
+  color:#fff;
+}
+
+.login h1 a {
+  background-image:none,url(/wp-content/uploads/2015/07/cropped-DeltaChiLogo_Complete-01.png) !important;
+}
+
+@media (max-device-width:767px) {
+  .social-media-icons {
+  	top:initial;
+	}
+	.cfa {
+  	height:150px;
+	}
+	.col-sm-8 {
+  	padding-top:50px;
+	}
+	.col-sm-4 {
+  	border-bottom:none;
+	}
+	h2.call-to-action {
+  	font-size:15px !important;
+	}
+	.navbar > .container .navbar-brand {
+  	font-size:12px
+	}
+
+	.logo-image {
+  	padding-top:10px;
+	}
+	h1, .h1 {
+  	font-size:20px !important;
+	}
+	h2, .h2 {
+		font-size:18px !important;
+	}
+	h3, .h3 {
+ 		font-size:15px !important;
+	}
+	
+	.social-media-icons {
+  	bottom:0;
+  	right:initial;
+  	margin:auto;
+  	width:100%;
+  	left:0;
+  	background-color:#313233;
+  	float:none;
+	}
+	.social-media-icons ul {
+  	padding:0;
+  	margin-bottom:0;
+  	float:none;
+  	display:block;
+  	text-align:center;
+	}
+	.facebook, .twitter, .linkedin {
+  	margin-bottom:0px;
+  	border:none;
+  	display:inline-block;
+  	float:none;
+	}
+	.facebook:hover, .twitter:hover, .linkedin:hover {
+  		padding-top:0;
+	}
+	.facebook img, .twitter img, .linkedin img {
+  		float:none;
+	}
+}
+@media (min-width:768px) {
+  .social-media-icons {
+		top:146px;
+	}
+	.cfa {
+  	height:300px;
+	
+	.col-sm-8 {
+  	padding-top:130px;
+	}
+	h2.call-to-action {
+  	font-size:30px;
+	}
+}
+@media (min-width:992px) {
+	.social-media-icons {
+    top:146px;
+	}
+  .cfa {
+    height:400px;
+	}
+  .col-sm-8 {
+  	padding-top:200px;
+	}
+}
+@media (min-width:1200px) {
+  .social-media-icons {
+		top:76px;
+    right:50px;
+   	z-index:10;
+	}
+  .facebook img, .twitter img, .linkedin img {
+    float:left;
+  }
+  .facebook, .twitter, .linkedin {
+    float:left;
+    border-top:none;
+    border-bottom:1px solid #666;
+  }
+  .facebook {
+    border-left:1px solid #666;
+  }
+  .linkedin {
+    border-right:1px solid #666;
+  }
+  .social-media-icons ul li {
+    display:inline;
+  }
+
+	h2.call-to-action {
+		font-size:50px;
+	}
+  h1, .h1 {
+    color: #0c0c0c; 
+    font-family: 'Headland One'; 
+    font-size: 45px; 
+    font-style: normal; 
+    font-weight: 400; 
+    text-transform: uppercase;
+  }
+  h2, h3, .h2, .h3 {
+    color: #7a0019;
+    font-family: 'Headland One'; 
+    font-style: normal; 
+    font-weight: 400;
+  }
+  h4, h5, h6, .h4, .h5, .h6 {
+    color:#ddd;
+    font-family: 'Headland One'; 
+    font-style: normal; 
+    font-weight: 400;
+  }
+  p {
+    color: #0a0a0a; 
+    font-family: 'Alegreya'; 
+    font-size: 15px; 
+    font-style: normal; 
+    font-weight: 400; 
+  }
+}
